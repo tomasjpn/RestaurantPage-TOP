@@ -7,7 +7,7 @@ export function RestaurantHomePage (){
     divElm.appendChild(h1);
 
     const p = document.createElement("p");
-    p.textContent = "Willkommen auf der Homepage";
+    p.textContent = "Willkommen auf der Homepage!";
     divElm.appendChild(p);
 
     const image = document.createElement("img");
