@@ -1,5 +1,7 @@
 export function RestaurantHomePage (){
     const divElm = document.getElementById("content");
+    
+    
 
 
     const h1 = document.createElement("h1");

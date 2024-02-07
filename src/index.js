@@ -1,3 +1,5 @@
-import { RestaurantHomePage } from "./page";
+import { RestaurantHomePage } from "./page.js";
+import { createTabs } from "./tabs";
 
 RestaurantHomePage();
+createTabs();
