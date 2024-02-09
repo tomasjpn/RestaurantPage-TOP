@@ -8,6 +8,7 @@ export function createTabs() {
     const contactPageBtn = document.getElementById("contactBtn");
     const contentDiv = document.getElementById("content");
 
+    //Function for three buttons: home, menu and about
     homePageBtn.addEventListener("click", () => {
         contentDiv.replaceChildren(); 
         RestaurantHomePage();
